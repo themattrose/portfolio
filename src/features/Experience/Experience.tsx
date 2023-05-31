@@ -55,7 +55,6 @@ export function Experience() {
                   </div>
                 )}
                 <div className={styles.techStack}>
-                  <div>Tech Stack: </div>
                   {techStack.map(t => (
                     <div key={uuid()} className={styles.item}>
                       {t}

@@ -24,14 +24,15 @@
         & .description {
           @apply border-gray-800 bg-gray-950 text-gray-400 lg:border;
           @apply lg:rounded-xl lg:shadow-xl;
-          @apply w-11/12 pb-1 text-sm leading-6;
+          @apply w-11/12 text-sm leading-6;
           @apply lg:w-[30rem] lg:px-5 lg:py-5 lg:text-base;
         }
 
         & .tags {
-          @apply flex flex-wrap justify-start text-primary-500 lg:pl-1;
+          @apply mt-2 flex flex-wrap justify-start;
           & .tag {
-            @apply mr-4 mt-3 font-mono text-xs lg:mt-5 lg:text-sm;
+            @apply mr-2 mt-2 rounded-full px-2.5 text-xs leading-7;
+            @apply bg-primary-400 bg-opacity-10 text-primary-500;
           }
         }
 

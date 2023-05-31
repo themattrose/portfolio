@@ -55,7 +55,7 @@
           & .labels {
             @apply flex items-center justify-start space-x-1.5;
             & .label {
-              @apply inline-flex rounded-md border border-gray-400 text-xs;
+              @apply inline-flex rounded-md border border-gray-700 text-xs;
               @apply px-1.5 leading-5 text-gray-400;
             }
           }
@@ -67,7 +67,7 @@
 
         & .descriptions {
           @apply flex flex-col items-start space-y-2;
-          @apply mb-6 mt-6 lg:mb-3;
+          @apply mt-6;
           & .description {
             @apply leading-[1.25rem] text-gray-400 md:w-[32rem];
             @apply before:pr-2 before:text-xl before:text-primary-500 before:content-["•"];
@@ -75,15 +75,11 @@
         }
 
         & .techStack {
-          @apply flex flex-wrap pt-3;
-
-          & .item,
-          div {
-            @apply pr-3 text-sm leading-7 text-gray-400;
-          }
+          @apply mt-2 flex flex-wrap;
 
           & .item {
-            @apply pr-3.5 text-primary-500;
+            @apply mr-2 mt-2 rounded-full px-2.5 py-0 text-xs leading-7;
+            @apply bg-primary-400 bg-opacity-10 text-primary-500;
           }
         }
       }

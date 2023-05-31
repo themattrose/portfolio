@@ -5,7 +5,7 @@
 @layer base {
   html,
   body {
-    @apply m-0 scroll-smooth bg-gradient-to-b from-gray-950 to-black  p-0;
+    @apply m-0 scroll-smooth bg-gray-950 p-0;
   }
 
   * {
